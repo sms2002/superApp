@@ -47,12 +47,22 @@ p
     float: right;
     margin-right: 5%;
     width: 40%;
+    margin-top: -2%;
 }
 .form
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+ .createaccount
+{
+    margin-top: -1%;
+}
+
+.emailGoogle
+{
+    margin-top: -0.5%;
 }
 input
 {
@@ -93,6 +103,7 @@ button
 .label
 {
     display: flex;
+    margin-top: -3%;
     
 }
 .span
@@ -108,5 +119,5 @@ button
 }
 .checkboxerror
 {
-    margin-top: -2%;
+    margin-top: -4.5%;
 }

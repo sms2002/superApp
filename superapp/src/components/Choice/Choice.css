@@ -1,0 +1,268 @@
+.choiceWholeDiv
+{
+  margin-top:-4.5% ;
+}
+.box {
+    width: 25%;
+    height: 10rem;
+    margin-left: 2%;
+    margin-top: 2%;
+    text-align: left;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    border-radius: 2rem;
+    cursor: pointer;
+    padding-left: 5%;
+    align-content: center;
+    
+  }
+  .headerbox
+  {
+    color: white;
+  }
+  .flexbox
+  {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: 50%;
+  }
+  .imagebox
+  {
+    width: 80%;
+    height: 6rem;
+    margin-top: -7%;
+
+    position: relative;
+  }
+  .choiceheader
+  {
+    color: #72DB73;
+    font-family: 'Single Day', cursive;
+    font-size: 3.438rem;
+    position: absolute;
+    left: 10%;
+    font-weight: 400;
+  }
+  .choicepara
+  {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    text-align: left;
+    font-size: 3.25rem;
+    margin-top: 8%;
+    left:10% ;
+    line-height:1rem;
+    
+  }
+  /* for listing choice */
+  .genreDiv
+  {
+    width: 30%;
+    height: 2.25rem;
+    background-color: #148A08;
+    position: relative;
+    top: -50%;
+    left: -82%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    top: -28vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    color: white;
+    border-radius: 1rem;
+    padding-right: -30%; 
+  }
+  .genreHeader
+  {
+    margin-left: 20%;
+    font-size: 1.571rem;
+  }
+  .closeButton
+  {
+    color:#085C00;
+    margin-left: auto; 
+    font-size: 1.646rem; 
+    cursor: pointer;
+    padding-right: 5%;
+  }
+  .choiceButton
+  {
+    width: 10%;
+    background-color: #148A08;
+    color: white;
+    margin-left:38%;
+    margin-top: 65vh;
+    border-color: #148A08;
+    font-family: 'DM Sans',cursive;
+    font-weight: 500;
+    position: absolute;
+    font-size: 1rem;
+  }
+  .genreError
+  {
+    color: red;
+    font-family: 'DM Sans',cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    position: absolute;
+    top: 90vh;
+    left: 110vh;
+  }
+  @media only screen and (min-width: 768px) {
+    .choiceWholeDiv
+{
+  margin-top:-4.5% ;
+}
+    .genreDiv
+  {
+    width: 30%;
+    height: 2.25rem;
+    background-color: #148A08;
+    position: relative;
+    top: -50%;
+    left: -82%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    top: -20vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    color: white;
+    border-radius: 1rem;
+    padding-right: -30%;
+    
+  }
+    .genreError
+  {
+    color: red;
+    font-family: 'DM Sans',cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    position: absolute;
+    top: 92vh;
+    left: 58vh;
+  }
+    .choicepara
+    {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      position: absolute;
+      text-align: left;
+      font-size: 3.25rem;
+      margin-top: 12%;
+      left:10% ;
+      line-height:4rem;
+      
+    }
+    .genreHeader
+  {
+    margin-left: 20%;
+    font-size: 1.071rem;
+  }
+    .closeButton
+  {
+    color:#085C00;
+    margin-left: auto; 
+    font-size: 1.546rem; 
+  }
+  .choiceButton
+  {
+    width: 10%;
+    background-color: #148A08;
+    color: white;
+    margin-left:38%;
+    margin-top: 85vh;
+    border-color: #148A08;
+    font-family: 'DM Sans',cursive;
+    font-weight: 500;
+    position: absolute;
+  }
+  }
+  @media only screen and (min-width: 1200px) {
+    .choiceWholeDiv
+{
+  margin-top:-4.5% ;
+}
+    .genreDiv
+  {
+    width: 30%;
+    height: 2.25rem;
+    background-color: #148A08;
+    position: relative;
+    top: -50%;
+    left: -82%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    top: -28vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    color: white;
+    border-radius: 1rem;
+    padding-right: -30%;
+    
+  }
+    .choicepara
+    {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      position: absolute;
+      text-align: left;
+      font-size: 3.25rem;
+      margin-top: 8%;
+      left:10% ;
+      line-height:4rem;
+      
+    }
+    .genreHeader
+  {
+    margin-left: 20%;
+    font-size: 1.571rem;
+  }
+  .closeButton
+  {
+    color:#085C00;
+    margin-left: auto; 
+    font-size: 1.646rem; 
+  }
+  .choiceButton
+  {
+    width: 10%;
+    background-color: #148A08;
+    color: white;
+    margin-left:38%;
+    margin-top: 80vh;
+    border-color: #148A08;
+    font-family: 'DM Sans',cursive;
+    font-weight: 500;
+    position: absolute;
+  }
+  .genreError
+  {
+    color: red;
+    font-family: 'DM Sans',cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    position: absolute;
+    top: 90vh;
+    left: 110vh;
+  }
+  }
