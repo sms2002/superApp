@@ -1,0 +1,81 @@
+.personalBox
+{
+    width: 40.75rem;
+    height: 20.078rem;
+    background-color: #5746EA;
+    border-radius: 1rem;
+    margin-top: 5%;
+    margin-left: 5%;
+    position: relative;
+    padding-bottom: 5%;
+}
+.personalImage
+{
+    width: 9rem;
+    padding-top: 7%;
+    padding-left: 3%;
+    position: absolute;
+}
+.personalName
+{
+    color: #FFFFFF;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 30%;
+    font-size: 1.309rem;
+    padding-top: 3%;
+}
+.personalEmail
+{
+    color: #FFFFFF;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 30%;
+    font-size: 1.309rem;
+    top: 12%;
+    padding-top: 3%;
+}
+.personalUser
+{
+    color: #FFFFFF;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    position: absolute;
+    left: 30%;
+    font-size: 2.309rem;
+    top: 25%;
+    padding-top: 3%;
+}
+.personalGenreContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    padding-top: 3%;
+}
+.alignGenreItems
+{
+    display: flex;
+    background-color: #9F94FF;
+    width: 10rem;
+    margin-left: 3%;
+    margin-top: 1.5%;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    padding-left: 3%;
+    border-radius: 2rem;
+    height: 1.5rem;
+    align-items: center;
+}
+.closeGenreBox
+{
+    color: #0000006B;
+    margin-left: auto;
+    padding-right: 5%;
+    cursor: pointer;
+}

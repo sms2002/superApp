@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Personal from '../components/Personal/Personal';
 function Personal1() {
   return (
     <div>
-      <h1>Hi</h1>
+      <Personal/>
     </div>
   )
 }

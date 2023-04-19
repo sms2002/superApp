@@ -14,7 +14,6 @@
     cursor: pointer;
     padding-left: 5%;
     align-content: center;
-    
   }
   .headerbox
   {
@@ -32,7 +31,6 @@
     width: 80%;
     height: 6rem;
     margin-top: -7%;
-
     position: relative;
   }
   .choiceheader

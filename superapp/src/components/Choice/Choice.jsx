@@ -15,46 +15,55 @@ const genres = [
     id: "Action",
     color: "#FF5209",
     image: action,
+    active:false
   },
   {
     id: "Drama",
     color: "#D7A4FF",
     image: drama,
+    active:false
   },
   {
     id: "Romance",
-    color: "#11B800",
+    color: "#148A08",
     image: romance,
+    active:false
   },
   {
     id: "Thriller",
     color: "#84C2FF",
     image: thriller,
+    active:false
   },
   {
     id: "Western",
     color: "#912500",
     image: western,
+    active:false
   },
   {
     id: "Horror",
     color: "#7358FF",
     image: horror,
+    active:false
   },
   {
     id: "Fantasy",
     color: " #FF4ADE",
     image: fantasy,
+    active:false
   },
   {
     id: "Music",
     color: "#E61E32",
     image: music,
+    active:false
   },
   {
     id: "Fiction",
     color: "#6CD061",
     image: fiction,
+    active:false
   },
 ];
 function Choice() {
@@ -66,6 +75,13 @@ function Choice() {
     const newArray = items.filter(item => item !== itemToDelete);
     setItems(newArray);
     setCount(count-1);
+    console.log(itemToDelete)
+    genres.map((item)=>{
+      if(item.id===itemToDelete)
+      {
+        item.active=false;
+      }
+    })
   }
 
   function handleSubmit(e)
@@ -99,12 +115,14 @@ function Choice() {
                 if (!items.includes(item.id)) {
                 setItems((prevItems) => [...prevItems, item.id]);
                 setCount(count+1);
+                item.active=true;
                 }
               }}
               style={{
                 backgroundColor: item.color,
+                border: item.active?'0.2rem solid #11B800':'' 
               }}
-              className="box"
+              className="box" 
               key={index}
             >
               <h2 className="headerbox">{item.id}</h2>
@@ -117,7 +135,8 @@ function Choice() {
           return(
             <div className="genreDiv">
                 <div className="genreHeader">{item}</div>
-                <div onClick={() => handleDeleteItem(item)} className="closeButton">X</div>
+                <div onClick={() => {handleDeleteItem(item);}
+                } className="closeButton">X</div>
             </div>
           )
         })}
