@@ -8,6 +8,7 @@ function Personal() {
     const myArray = JSON.parse(storedArray);
     
   return (
+    <div>
     <div className='personalBox'>
         <img className='personalImage'src={Profile} alt="profilepic" />
         <h3 className='personalName'>{myObject.name}</h3>
@@ -20,9 +21,11 @@ function Personal() {
                 <div className='personalGenreBox'>{item}</div>
                 <div className='closeGenreBox'>X</div>
                 </div>
+              
             )
         })}
         </div>
+    </div>
     </div>
   )
 }
