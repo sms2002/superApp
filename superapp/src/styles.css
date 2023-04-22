@@ -1,0 +1,15 @@
+.personalWholeDiv
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.topLeftDiv
+{
+    margin-top: 3%;
+}
+.topRightDiv
+{
+    height: 35rem;
+    margin-top: 5%;
+}

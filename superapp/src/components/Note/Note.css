@@ -1,0 +1,42 @@
+.noteContainer
+{
+    width: 22rem;
+    height: 25rem;
+    background-color:#F1C75B;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    overflow-y: scroll;
+}
+.notepadInput
+{
+    display: flex;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 0.1rem solid #fff;
+    width: 120%;
+    margin: 0;
+    align-items: start;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-left: 30%;
+    overflow-y: auto;
+    
+}
+.noteHeader
+{
+    font-family: 'Roboto';
+    font-weight: 600;
+    margin-right:auto;
+    margin-left: 15%;
+    position: sticky;
+    top: 0%;
+}
+.buttonWWrite
+{
+    margin-top: 5%;
+}
