@@ -5,21 +5,21 @@ import { API_KEY_NEWS } from "../../constants";
 import axios from 'axios'
 function News() {
   const [article, setArticles] = useState([]);
-  // useEffect(() => {
-  //   const API_KEY = API_KEY_NEWS;
-  //   axios.get('https://api.newscatcherapi.com/v2/search', {
-  //     headers: {
-  //       'x-api-key': API_KEY,
-  //     },
-  //     params: {
-  //       q: 'headlines',
-  //        countries:'US'
-  //     },
-  //   })
-  //     .then(response => setArticles(response.data.articles[0]))
-  //     .catch(error => console.error(error));
+  useEffect(() => {
+    const API_KEY = API_KEY_NEWS;
+    axios.get('https://api.newscatcherapi.com/v2/search', {
+      headers: {
+        'x-api-key': API_KEY,
+      },
+      params: {
+        q: 'headlines',
+         countries:'US'
+      },
+    })
+      .then(response => setArticles(response.data.articles[0]))
+      .catch(error => console.error(error));
       
-  // }, []);
+  }, []);
   return (
     <div className='newsContainer'>
       <div className="newsImage">
