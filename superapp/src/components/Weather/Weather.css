@@ -1,10 +1,12 @@
 .weatherContainer
 {
-    width: 40.75rem;
+    width: 38.75rem;
     height: 10rem;
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-bottom: 5%;
+    margin-top: -9%;
+    transform: scale(0.7);
+    /* margin-left: 5%;
+    
+    margin-bottom: 5%; */
     border-radius: 1rem;
     font-family: 'Roboto';
 }

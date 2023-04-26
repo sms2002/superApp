@@ -1,0 +1,30 @@
+.moviesNavbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left:5%;
+    padding-right: 5%;
+    margin-top: 3vh;
+    align-items: center;
+}
+.moviesHeader
+{
+    color: #72DB73;
+    font-family: 'Single Day',cursive;
+    font-weight: 400;
+    font-size: 2.9rem;
+}
+.moviesLogo
+{
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.moviePara
+{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    font-size: 1.901rem;
+    text-align: left;
+    padding-left: 7%;
+}

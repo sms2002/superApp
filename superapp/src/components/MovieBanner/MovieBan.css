@@ -1,0 +1,40 @@
+.row{
+    margin-left:7%;
+    color: #fff;
+
+}
+.posterHeader
+{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 1.875rem;
+    color: #878787;
+}
+.posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y:hidden ;
+    
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+
+.poster{
+    cursor: pointer;
+    max-height: 12.5rem;
+    margin-right: 0.625rem;
+    border-radius: 1rem;
+
+}
+.smallPoster
+{
+    max-height:6.25rem;
+    cursor: pointer;
+}
+.poster:hover
+{
+    transform: scale(1.1);
+}

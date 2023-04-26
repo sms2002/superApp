@@ -1,13 +1,17 @@
 .personalBox
 {
-    width: 40.75rem;
+    width: 38.75rem;
     height: 20.078rem;
     background-color: #5746EA;
     border-radius: 1rem;
-    margin-top: 3%;
-    margin-left: 5%;
     position: relative;
-    padding-bottom: 3%;
+    padding-bottom: 7%;
+    transform: scale(0.7);
+    margin-top: -6%;
+    /* 
+    margin-left: 5%;
+ 
+     */
 }
 .personalImage
 {

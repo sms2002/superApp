@@ -15,26 +15,26 @@ function Weather() {
   const [pressure, setPressure] = useState('')
   const [windSpeed, setWindSpeed] = useState('')
   const [humidity, setHumidity] = useState('')
-  // useEffect(() => {
-  //  axios.get(`current.json?key=${API_KEY_WEATHER}&q=india`).then((response)=>{
+  useEffect(() => {
+   axios.get(`current.json?key=${API_KEY_WEATHER}&q=india`).then((response)=>{
     
-  //   const localdate=response.data.location.localtime.slice(0,10)
-  //   const localtime=response.data.location.localtime.slice(10)
-  //   const weathercondition=response.data.current.condition.text
-  //   const temperature=response.data.current.temp_c
-  //   const pressure=response.data.current.pressure_mb
-  //   const windspeed=response.data.current.wind_kph
-  //   const humidity=response.data.current.humidity
+    const localdate=response.data.location.localtime.slice(0,10)
+    const localtime=response.data.location.localtime.slice(10)
+    const weathercondition=response.data.current.condition.text
+    const temperature=response.data.current.temp_c
+    const pressure=response.data.current.pressure_mb
+    const windspeed=response.data.current.wind_kph
+    const humidity=response.data.current.humidity
 
-  //   setLocalDate(localdate)
-  //   setLocalTime(localtime)
-  //   setWeatherCondition(weathercondition)
-  //   setTemperature(temperature)
-  //   setPressure(pressure)
-  //   setWindSpeed(windspeed)
-  //   setHumidity(humidity)
-  //  })
-  // }, [])
+    setLocalDate(localdate)
+    setLocalTime(localtime)
+    setWeatherCondition(weathercondition)
+    setTemperature(temperature)
+    setPressure(pressure)
+    setWindSpeed(windspeed)
+    setHumidity(humidity)
+   })
+  }, [])
   
   return (
     <div className="weatherContainer">

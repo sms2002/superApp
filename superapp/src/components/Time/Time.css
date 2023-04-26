@@ -1,0 +1,154 @@
+.timerContainer
+{
+    width:80rem;
+    height: 25rem;
+    background-color: #1E2343;
+    display: flex;
+    transform: scale(0.7);
+    margin-left: -7rem;
+    margin-top: 0vh;
+    border-radius: 1.5rem;
+}
+.surroundCircle
+{
+    width: 2.4rem;
+    height: 2.4rem;
+    position: relative;
+    border-radius: 2rem;
+    padding: 1% 1% 1% 1%;
+}
+#countdown {
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 3rem;
+    height: 2.813rem;
+    width: 2.813rem;
+    text-align: center;
+    transform: scale(6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    border-radius: 3rem;
+    background-color: #191E39;
+  }
+  
+  #countdown-number {
+    color: white;
+    display: inline-block;
+    line-height: 2.5rem;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 0.5rem;
+  }
+ 
+  
+  svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    transform: rotateY(-180deg) rotateZ(-90deg);
+  }
+  
+  svg circle {
+    stroke-dasharray: 113px;
+    stroke-dashoffset: 0px;
+    stroke-linecap: round;
+    stroke-width: 0.125rem;
+    stroke: #FF6A6A;
+    fill: none;
+  }
+  .upImage,.downImage 
+  {
+    cursor: pointer;
+  }
+  @keyframes countdown {
+    from {
+      stroke-dashoffset: 0px;
+    }
+    to {
+      stroke-dashoffset: 113px;
+    }
+  }
+  .timerData
+  {
+    display: flex;
+  }
+  .timertimes
+  {
+    color: #949494;
+    font-family: 'Roboto';
+    font-weight: 400;
+  }
+  .timerLeftSection
+  {
+    position: absolute;
+    left: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .dataTime
+  {
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 3.5rem;
+  }
+  .timerMiddleSection
+  {
+    position: absolute;
+    left: 105vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .timerRightSection
+  {
+    position: absolute;
+    left: 135vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .colon1
+  {
+    position: absolute;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 300;
+    left: 95vh;
+    font-size: 3.5rem;
+    top: 34%;
+  }
+  .colon2
+  {
+    position: absolute;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 300;
+    left: 128vh;
+    font-size: 3.5rem;
+    top: 34%;
+  }
+  .startPauseButton
+  {
+    position: relative;
+    width: 30rem;
+    height: 4rem;
+    background-color: #FF6A6A;
+    border-radius: 2rem;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    top: 80%;
+    left: 79vh;
+    cursor: pointer;
+  }

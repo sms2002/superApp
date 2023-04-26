@@ -34,7 +34,7 @@ function News() {
         </div>
       </div>
       <div className="lowerNewsContainer">
-        <p className="newsPara">{article.summary?article.summary:'No summary'}</p>
+        <p className="newsPara">{article.summary?`${article.summary.slice(0,250)}...`:'No summary'}</p>
       </div>
     </div>
   )
