@@ -5,7 +5,13 @@ import News from "../components/News/News";
 import Note from '../components/Note/Note'
 import Time from '../components/Time/Time'
 import '../styles.css'
+import {useNavigate} from 'react-router-dom'
 function Personal1() {
+  const navigate=useNavigate();
+  function handleClick()
+  {
+   navigate("/entertainment");
+  }
   return (
     <div className='personalWholeDiv'>
       
@@ -21,6 +27,7 @@ function Personal1() {
       </div>
       <div className="topRightDiv">
       <News/>
+      <div><button onClick={handleClick}className='nextPersonalButton'>Browse</button></div>
       </div>
     </div>
   )

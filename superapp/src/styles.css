@@ -3,6 +3,7 @@
   justify-content: space-between;
   transform: scale(0.85);
   flex-direction: row;
+  margin-left: -5%;
 }
 .halfSectionLeft {
   display: flex;
@@ -17,8 +18,20 @@
   height: 35rem;
   margin-top: -1.5%;
   margin-right: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 .topMiddleDiv {
   margin-left: 0%;
   margin-top: -1%;
+}
+.nextPersonalButton
+{
+  color: white;
+  font-family: 'DM Sans';
+  font-weight:500;
+  width: 10.25rem;
+  height: 3.375rem;
+  text-align: center;
 }

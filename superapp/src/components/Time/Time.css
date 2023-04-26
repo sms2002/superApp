@@ -1,11 +1,11 @@
 .timerContainer
 {
-    width:80rem;
+    width:75rem;
     height: 25rem;
     background-color: #1E2343;
     display: flex;
     transform: scale(0.7);
-    margin-left: -7rem;
+    margin-left: -6rem;
     margin-top: 0vh;
     border-radius: 1.5rem;
 }
