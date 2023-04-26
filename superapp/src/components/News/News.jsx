@@ -1,6 +1,5 @@
 import React, { useEffect,useState } from 'react'
 import './News.css'
-import temp from '../../assets/tempimg.png'
 import { API_KEY_NEWS } from "../../constants";
 import axios from 'axios'
 function News() {
